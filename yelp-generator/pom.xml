@@ -10,5 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yelp-generator</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>yelp-generator-bmc</module>
+        <module>yelp-generator-csc</module>
+        <module>yelp-generator-usc</module>
+    </modules>
 
 </project>

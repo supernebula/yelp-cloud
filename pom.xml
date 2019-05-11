@@ -13,6 +13,10 @@
         <module>yelp-generator</module>
         <module>yelp-provider-api</module>
         <module>yelp-provider</module>
+        <module>yelp-common-zk</module>
+        <module>yelp-security-app</module>
+        <module>yelp-security-core</module>
+        <module>yelp-security-feign</module>
     </modules>
 
 
