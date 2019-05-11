@@ -2,17 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yelp-cloud</artifactId>
+        <groupId>com.evol</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.evol</groupId>
-    <artifactId>yelp-cloud</artifactId>
+    <artifactId>yelp-provider-api</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>yelp-common</module>
-        <module>yelp-generator</module>
-        <module>yelp-provider-api</module>
-        <module>yelp-provider</module>
+        <module>yelp-provider-bmc-api</module>
+        <module>yelp-provider-csc-api</module>
+        <module>yelp-provider-usc-api</module>
     </modules>
 
 
