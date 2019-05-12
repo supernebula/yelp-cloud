@@ -8,8 +8,26 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
     <artifactId>yelp-generator-bmc</artifactId>
+    <name>yelp-generator-bmc</name>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>4.3.23.RELEASE</spring.version>
+        <!-- MyBatis Generator -->
+        <!-- Java接口和实体类 -->
+        <!--解决： mac环境下，\要修改为/，windows才是\-->
+        <!--<targetJavaProject>${basedir}/src/main/java</targetJavaProject>-->
+        <!--&lt;!&ndash; XML生成路径 &ndash;&gt;-->
+        <!--<targetMapperPackage>com.evol.provider.mapper</targetMapperPackage>-->
+        <!--<targetModelPackage>com.evol.provider.model.domain</targetModelPackage>-->
+
+        <!--&lt;!&ndash; XML生成路径 &ndash;&gt;-->
+        <!--<targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>-->
+        <!--<targetXMLPackage>mapper</targetXMLPackage>-->
+
+    </properties>
 
 </project>
