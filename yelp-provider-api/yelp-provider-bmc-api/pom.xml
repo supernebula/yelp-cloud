@@ -11,5 +11,8 @@
 
     <artifactId>yelp-provider-bmc-api</artifactId>
 
+    <dependencies>
+    </dependencies>
+
 
 </project>

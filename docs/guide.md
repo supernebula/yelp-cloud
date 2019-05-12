@@ -3,6 +3,20 @@
 
 Spring Cloud 中文索引
 
+## 参考项目
+
+
+https://github.com/sqshq/PiggyMetrics
+
+### 2. paascloud
+
+        http://blog.paascloud.net/categories/
+
+        http://paascloud.net/
+
+        https://github.com/paascloud/paascloud-master
+
+2. https://github.com/Ryan-Miao/spring-cloud-Edgware-demo/
 
 
 http://springcloud.fun/
@@ -61,15 +75,4 @@ https://github.com/zhangxd1989/spring-boot-cloud
 
 
 
-## Spring cloud 开源项目
 
-
-https://github.com/sqshq/PiggyMetrics
-
-### paascloud
-
-http://blog.paascloud.net/categories/
-
-http://paascloud.net/
-
-https://github.com/paascloud/paascloud-master
