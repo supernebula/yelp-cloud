@@ -10,6 +10,7 @@
         <module name="yelp-common-config" />
         <module name="yelp-common-core" />
         <module name="yelp-common-util" />
+        <module name="yelp-common-zk" />
         <module name="yelp-discovery" />
         <module name="yelp-eureka" />
         <module name="yelp-gateway" />
@@ -17,11 +18,11 @@
         <module name="yelp-generator-csc" />
         <module name="yelp-generator-usc" />
         <module name="yelp-monitor" />
-        <module name="yelp-provider" />
         <module name="yelp-provider-bmc" />
         <module name="yelp-provider-bmc-api" />
         <module name="yelp-provider-csc" />
         <module name="yelp-provider-csc-api" />
+        <module name="yelp-provider-usc" />
         <module name="yelp-provider-usc-api" />
         <module name="yelp-security-app" />
         <module name="yelp-security-core" />
@@ -29,8 +30,5 @@
         <module name="yelp-zipkin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="yelp-common-zk" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

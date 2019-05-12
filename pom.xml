@@ -10,13 +10,17 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>yelp-common</module>
+        <module>yelp-discovery</module>
+        <module>yelp-eureka</module>
+        <module>yelp-gateway</module>
         <module>yelp-generator</module>
-        <module>yelp-provider-api</module>
+        <module>yelp-monitor</module>
         <module>yelp-provider</module>
-        <module>yelp-common-zk</module>
+        <module>yelp-provider-api</module>
         <module>yelp-security-app</module>
         <module>yelp-security-core</module>
         <module>yelp-security-feign</module>
+        <module>yelp-zipkin</module>
     </modules>
 
 

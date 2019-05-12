@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yelp-provider</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>yelp-provider-bmc</module>
+        <module>yelp-provider-csc</module>
+        <module>yelp-provider-usc</module>
+    </modules>
 
 
 </project>
