@@ -13,6 +13,35 @@ https://www.docs4dev.com/docs/zh/spring-cloud/Edgware.SR5/reference/multi_spring
 
 https://www.docs4dev.com/docs/zh/spring-cloud/Edgware.SR5/reference/multi__service_discovery_eureka_clients.html
 
+#### ISSUE
+
+1.eureka server 配置security.base.enabled=true 引起的eureka-client异常：
+```
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+```
+原因：
+在server端的application.yml中配置了登陆Eureka服务端的用户名和密码：
+
+```
+security:
+  basic:
+    enabled: true
+  user:
+      name: admin # login username
+      password: admin
+```
+
+
+解决方式：
+（1）、删除用户名和密码配置，重启即可；
+
+（2）、在客户端的application.yml中，serviceUrl配置时，加入用户名和密码：
+```
+serviceUrl:
+      defaultZone: http://username:password@localhost:8761/eureka/
+```
+
+
 Spring Cloud 中文索引
 
 ## 参考项目
