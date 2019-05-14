@@ -13,3 +13,6 @@ https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Edgware-Releas
 
 
 应用升级SpringCloud版本时的注意事项(Dalston升级到Edgware)
+
+
+https://www.docs4dev.com/docs/zh/spring-cloud/Edgware.SR5/reference/multi__features.html

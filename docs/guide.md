@@ -1,6 +1,18 @@
 
 #
 
+## STEP
+
+### STEP1:  Eureka Server
+
+https://mrbird.cc/Spring-Cloud-Eureka.html
+
+https://www.docs4dev.com/docs/zh/spring-cloud/Edgware.SR5/reference/multi_spring-cloud-eureka-server.html
+
+### STEP2: Service Discovery (eureka clients)
+
+https://www.docs4dev.com/docs/zh/spring-cloud/Edgware.SR5/reference/multi__service_discovery_eureka_clients.html
+
 Spring Cloud 中文索引
 
 ## 参考项目
