@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.evol.provider.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.evol.provider.model.domain.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="review_count" jdbcType="INTEGER" property="reviewCount" />
+    <result column="yelping_since" jdbcType="TIMESTAMP" property="yelpingSince" />
+    <result column="useful" jdbcType="INTEGER" property="useful" />
+    <result column="funny" jdbcType="INTEGER" property="funny" />
+    <result column="cool" jdbcType="INTEGER" property="cool" />
+    <result column="fans" jdbcType="INTEGER" property="fans" />
+    <result column="average_stars" jdbcType="REAL" property="averageStars" />
+    <result column="compliment_hot" jdbcType="INTEGER" property="complimentHot" />
+    <result column="compliment_more" jdbcType="INTEGER" property="complimentMore" />
+    <result column="compliment_profile" jdbcType="INTEGER" property="complimentProfile" />
+    <result column="compliment_cute" jdbcType="INTEGER" property="complimentCute" />
+    <result column="compliment_list" jdbcType="INTEGER" property="complimentList" />
+    <result column="compliment_note" jdbcType="INTEGER" property="complimentNote" />
+    <result column="compliment_plain" jdbcType="INTEGER" property="complimentPlain" />
+    <result column="compliment_cool" jdbcType="INTEGER" property="complimentCool" />
+    <result column="compliment_funny" jdbcType="INTEGER" property="complimentFunny" />
+    <result column="compliment_writer" jdbcType="INTEGER" property="complimentWriter" />
+    <result column="compliment_photos" jdbcType="INTEGER" property="complimentPhotos" />
+  </resultMap>
+</mapper>

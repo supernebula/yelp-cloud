@@ -1,5 +1,7 @@
 
-#
+# Spring Cloud Edgware Release Notes
+
+https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Edgware-Release-Notes
 
 ## STEP
 
@@ -40,6 +42,22 @@ security:
 serviceUrl:
       defaultZone: http://username:password@localhost:8761/eureka/
 ```
+
+### STEP3: Gateway 之 Zuul
+
+https://github.com/Netflix/zuul
+
+Spring Cloud-Zuul 路由器和过滤器
+
+https://blog.csdn.net/u013985664/article/details/80737729
+
+https://www.cnblogs.com/yjmyzz/p/spring-cloud-zuul-demo.html
+
+https://my.oschina.net/javaroad/blog/3048030
+
+Router and Filter: Zuul 
+
+https://cloud.spring.io/spring-cloud-static/spring-cloud-netflix/1.4.6.RELEASE/single/spring-cloud-netflix.html#_router_and_filter_zuul
 
 
 Spring Cloud 中文索引

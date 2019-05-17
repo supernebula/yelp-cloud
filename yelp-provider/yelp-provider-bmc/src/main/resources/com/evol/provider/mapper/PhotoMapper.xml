@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.evol.provider.mapper.PhotoMapper">
+  <resultMap id="BaseResultMap" type="com.evol.provider.model.domain.Photo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="business_id" jdbcType="VARCHAR" property="businessId" />
+    <result column="caption" jdbcType="VARCHAR" property="caption" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.evol.provider.mapper.BusinessMapper">
+  <resultMap id="BaseResultMap" type="com.evol.provider.model.domain.Business">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="neighborhood" jdbcType="VARCHAR" property="neighborhood" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+    <result column="postal_code" jdbcType="VARCHAR" property="postalCode" />
+    <result column="latitude" jdbcType="REAL" property="latitude" />
+    <result column="longitude" jdbcType="REAL" property="longitude" />
+    <result column="stars" jdbcType="REAL" property="stars" />
+    <result column="review_count" jdbcType="INTEGER" property="reviewCount" />
+    <result column="is_open" jdbcType="TINYINT" property="isOpen" />
+  </resultMap>
+</mapper>

@@ -9,10 +9,9 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.evol</groupId>
     <artifactId>yelp-discovery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>yelp-discovery</name>
+    <name>yelp-discovery-config-server</name>
     <description>微服务配置中心</description>
 
     <properties>
