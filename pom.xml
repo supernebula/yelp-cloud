@@ -12,7 +12,6 @@
         <module>yelp-common</module>
         <module>yelp-discovery</module>
         <module>yelp-eureka</module>
-        <module>yelp-gateway</module>
         <module>yelp-generator</module>
         <module>yelp-monitor</module>
         <module>yelp-provider</module>
