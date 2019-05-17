@@ -13,6 +13,7 @@
         <module name="yelp-common-zk" />
         <module name="yelp-discovery" />
         <module name="yelp-eureka" />
+        <module name="yelp-gateway" />
         <module name="yelp-generator-bmc" />
         <module name="yelp-generator-csc" />
         <module name="yelp-generator-usc" />
@@ -29,8 +30,5 @@
         <module name="yelp-zipkin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="yelp-gateway" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
